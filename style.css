@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    background-color: blue;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .block{
+    position: absolute;
+    bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  footer p {
+    padding-left: 10px;
+  }
+  footer a{
+    padding-top: 13px;
+    padding-left: 10px;
+  }
